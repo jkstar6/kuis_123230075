@@ -98,7 +98,7 @@ class _LoginPageState extends State<LoginPage> {
                         ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(
                             content: Text(
-                              "Login gagal! Username atau password salah",
+                              "Login gagal!",
                               style: TextStyle(color: Colors.white),
                             ),
                             duration: Duration(seconds: 2),
