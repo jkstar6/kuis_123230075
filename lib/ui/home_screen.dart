@@ -12,12 +12,11 @@ class HomeScreen extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: GridView.builder(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2, // 2 Kolom ke samping
-            crossAxisSpacing: 16, // Jarak horizontal
-            mainAxisSpacing: 16, // Jarak vertikal
-            childAspectRatio: 0.75, // Rasio Tinggi:Lebar (0.75 = Agak tinggi)
+            crossAxisCount: 2,
+            crossAxisSpacing: 16,
+            mainAxisSpacing: 16,
           ),
-          itemCount: products.length, // Jumlah total item
+          itemCount: products.length,
           itemBuilder: (context, index) {
             final product = products[index];
 
